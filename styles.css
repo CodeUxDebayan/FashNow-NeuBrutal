@@ -346,7 +346,7 @@
   margin-top: -20px;
   font-family: Fira Sans;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 767px) {
   .header {
     padding: 20px 30px;
     justify-content: space-between;
