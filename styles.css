@@ -146,7 +146,7 @@
 }
 
 .ribbon-container, .swiper-container {
-  width: 100%;
+
   overflow: hidden;
   position: relative;
   background-color: var(--green);
@@ -243,8 +243,11 @@
   text-align: left;
   justify-content: flex-start;
   & img {
+    width: 300px;
+    height: 400px;
     object-fit: cover;
     box-shadow: -3px 5px 0px var(--s-black);
+    transition: all 1s ease;
     &:hover {
       transform: translate(4px, -2px);
       box-shadow: -7px 7px 0px var(--s-black);
@@ -264,7 +267,7 @@
 .item-2{
   margin-top: 50px;
   & img{
-    border-radius: 30px 30px 0 0;
+    border-radius: 30% 30% 0 0;
   }
 }
 
@@ -414,9 +417,7 @@
   .collection-h{
     font-size: 2em;
   }
-  .ribbon{
-    width: 100%;
-  }
+  
   .ribbon-band{
     gap: 300px;
     font-size: .7rem;
